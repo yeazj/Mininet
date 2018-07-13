@@ -1,4 +1,4 @@
-# Benign & Attack traffic generation on emulated Enterprise network
+## Benign & Attack traffic generation on an emulated Enterprise network
 * An enterprise network comprising of DNS, HTTP, HTTPS, FTP, SMTP and DB servers.
 * Network attacks
   * Bruteforce
