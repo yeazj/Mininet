@@ -82,12 +82,12 @@
 > engine = create_engine('postgresql://postgres:postgres@x.x.x.x:5432/test', echo=True)
 > ```
 
-> **Create *users* table in Postgre** (first time only)\
+> Create *users* table in Postgre (first time only)\
 > ```console
 > #python scripts/http_postgre/createtable.py
 > ```
 
-> **Insert 'username' and 'password' in *users* table** (first time only)\
+> Insert 'username' and 'password' in *users* table (first time only)\
 > ```console
 > #python scripts/http_postgre/insertable.py
 > ```
