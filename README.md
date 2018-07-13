@@ -129,8 +129,8 @@
 > #./parse_offline.sh
 > ```
 
-## Benign Traffic
+## Benign Traffic Generation
 #### Start the scripts at the hosts
 
-## Attack traffic
+## Attack Traffic Generation
 #### Start the mamlicious host
