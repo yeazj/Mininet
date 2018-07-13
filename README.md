@@ -9,7 +9,8 @@ It comprises of DNS, HTTP, HTTPS, FTP and SMTP servers.
 #### Stop NetManager (to prevent it from updating /etc/resolve.conf)
 > #service NetworkManager stop
 
-#### Check /etc/resolve.conf & /etc/dnsmasq.hosts
+#### Check configs
+> /etc/resolve.conf & /etc/dnsmasq.hosts
 
 #### Start Mininet
 > #service openvswitch-switch start\
