@@ -1,6 +1,6 @@
-# Mininet
-* Emulation of an enterprise network comprising of DNS, HTTP, HTTPS, FTP, SMTP and DB servers.
-* Emulation of Network attacks
+# Emulation of attacks on realistic Enterprise network for beningn & attack dataset generation
+* An enterprise network comprising of DNS, HTTP, HTTPS, FTP, SMTP and DB servers.
+* Network attacks
   * Bruteforce
   * Web
     * SQL injection
