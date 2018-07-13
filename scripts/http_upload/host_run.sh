@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-#curl -F file=@/root/tmp/test2 http://10.0.0.82:80
+#curl -F file=@/root/tmp/test2 http://web.example.com:80
 while true; do
 	#wget -O - 10.0.0.82:80
 	wget -O - web.example.com:80
