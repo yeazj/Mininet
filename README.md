@@ -26,10 +26,12 @@
 
 #### Start Mininet
 > #service openvswitch-switch start\
+
 > #./my_net.sh
 
 #### Start DNS
 > mininet> xterm dns\
+
 > xterm# dnsmasq --log-level --no-daemon
 
 #### Start TCPdump
@@ -37,11 +39,14 @@
 
 #### Start FTP (Bruteforce attack victim)
 > #sudo apt-get install python-pyftpdlib\
+
 > mininet> xterm l_ftp
+
 > xterm# python /scripts/ftp/server_ftp/basic_ftpd.py
 
 #### Start SMTP
 > mininet> xterm email\
+
 > xterm# python scripts/smtp/smtpd_custom.py
 
 #### Start PostgreSQL over HTTPS server
@@ -51,7 +56,9 @@
 > ```python
 > engine = create_engine('postgresql://postgres:postgres@10.0.2.15:5432/test', echo=True)
 > ```
+
 > mininet> xterm https
+
 > xterm# python 
 
 #### Start HTTP with Upload
