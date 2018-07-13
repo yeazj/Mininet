@@ -25,7 +25,7 @@
 > [/etc/resolve.conf](/resolve.conf) & [/etc/dnsmasq.hosts](/dnsmasq.hosts)
 
 #### Start Mininet
-> #service openvswitch-switch start\
+> #service openvswitch-switch start
 
 > #./my_net.sh
 
