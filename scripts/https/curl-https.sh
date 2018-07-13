@@ -1,7 +1,8 @@
 #!/bin/bash
 
 while true; do
-	curl -k -u guest:password https://secure.example.com/messages
+	#curl -k -u guest:password https://secure.example.com/messages
+	curl -k https://secure.example.com/login --data "username=admin&password=password"
 	while true; do
 		second=$((RANDOM % 255));
 		tmp=$((second % 2));
