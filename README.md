@@ -62,12 +62,16 @@
 #### Start SMTP
 > ```console
 > mininet> xterm email
+> ```
 
+> ```console
 > xterm# python scripts/smtp/smtpd_custom.py
 > ```
 
 #### Start PostgreSQL over HTTPS server
+> ```console
 > #service postgresql start
+> ```
 
 > PostgreSQL runs on local machine (fetch IP)
 
@@ -77,30 +81,48 @@
 > ```
 
 > **Create *users* table in Postgre** (first time only)\
+> ```console
 > #python scripts/http_postgre/createtable.py
+> ```
 
 > **Insert 'username' and 'password' in *users* table** (first time only)\
+> ```console
 > #python scripts/http_postgre/insertable.py
+> ```
 
+> ```console
 > mininet> xterm https
+> ```
 
+> ```console
 > xterm# python scripts/http_postgre/app.py
-
->
+> ```
 
 #### Start HTTP with Upload
+> ```console
 > mininet> xterm web
+> ```
 
+> ```console
 > xterm# python scripts/http_upload/shttpu.py 80
+> ```
 
 #### Start Vulnerable HTTP (Web attacks target)
 > [Link to YAVW - Yet Another Vulnerable Webserver](https://github.com/noleti/yavw)
 
+> ```console
 > mininet> xterm yavw
+> ```
 
+> ```console
 > xterm# cd scripts/http_login
+> ```
 
+> ```console
 > xterm# python yavw.py
+> ```
 
 #### Start TCPdump
+> ```console
 > #./parse_offline.sh
+> ```
