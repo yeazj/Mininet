@@ -16,7 +16,9 @@
 > Not tested on other platforms yet but shouldn't be much different on any other Debian/Ubuntu Linux
 
 #### Start POX [[Link to POX]](https://github.com/noxrepo/pox "POX Repo")
+> ```console
 > #./pox.py log.level DEBUG forwarding.l2_learning
+> ```
 
 #### Stop NetManager (to prevent it from updating /etc/resolve.conf)
 > #service NetworkManager stop
