@@ -33,7 +33,7 @@
 > [/etc/resolve.conf](/resolve.conf) & [/etc/dnsmasq.hosts](/dnsmasq.hosts)
 
 > ```diff
-> TBA - Add dnsmasq config
+> - TBA - Add dnsmasq config
 > ```
 
 #### 4. Start Mininet
