@@ -60,6 +60,7 @@
 > ```
 
 > #python scripts/http_postgre/createtable.py (Create *users* table in Postgre)
+
 > #python scripts/http_postgre/insertable.py (Insert 'username' and 'password' in *users* table)
 
 > mininet> xterm https
