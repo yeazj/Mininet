@@ -1,5 +1,5 @@
 # Mininet
-* Emulation of an enterprise network comprising of DNS, HTTP, HTTPS, FTP and SMTP servers.
+* Emulation of an enterprise network comprising of DNS, HTTP, HTTPS, FTP, SMTP and DB servers.
 * Emulation of Network attacks
   * Bruteforce
   * Web
@@ -34,3 +34,22 @@
 
 #### Start TCPdump
 > #./parse_offline.sh
+
+#### Start FTP (Bruteforce attack victim)
+> # sudo apt-get install python-pyftpdlib
+> mininet> xterm l_ftp
+> xterm# python /scripts/ftp/server_ftp/basic_ftpd.py
+
+#### Start SMTP
+> mininet> xterm email
+> xterm# python scripts/smtp/smtpd_custom.py
+
+#### Start PostgreSQL over HTTPS server
+> PostgreSQL runs on local machine (fetch IP)
+> Change IP in Engine in app.py & insertable.py 
+> mininet> xterm https
+> xterm# python 
+
+#### Start HTTP with Upload
+
+#### Start Vulnerable HTTP (Web attacks victim)
