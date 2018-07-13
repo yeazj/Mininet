@@ -12,6 +12,8 @@
   * Botnet
   * Vulnerability exploit
   
+## Setup
+
 #### Pre-req : Kali Linux
 > Not tested on other platforms yet but shouldn't be much different on any other Debian/Ubuntu Linux
 
@@ -126,3 +128,9 @@
 > ```console
 > #./parse_offline.sh
 > ```
+
+## Benign Traffic
+#### Start the scripts at the hosts
+
+## Attack traffic
+#### Start the mamlicious host
