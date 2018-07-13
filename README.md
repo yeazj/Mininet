@@ -34,15 +34,12 @@
 
 > xterm# dnsmasq --log-level --no-daemon
 
-#### Start TCPdump
-> #./parse_offline.sh
-
 #### Start FTP (Bruteforce attack victim)
 > #sudo apt-get install python-pyftpdlib
 
 > mininet> xterm l_ftp
 
-> xterm# python /scripts/ftp/server_ftp/basic_ftpd.py
+> xterm# python scripts/ftp/server_ftp/basic_ftpd.py
 
 #### Start SMTP
 > mininet> xterm email
@@ -77,3 +74,6 @@
 > xterm# python scripts/http_upload/shttpu.py 80
 
 #### Start Vulnerable HTTP (Web attacks victim)
+
+#### Start TCPdump
+> #./parse_offline.sh
