@@ -1,7 +1,5 @@
 # Mininet
-Emulation of an enterprise network
-
-It comprises of DNS, HTTP, HTTPS, FTP and SMTP servers.
+Emulation of an enterprise network comprising of DNS, HTTP, HTTPS, FTP and SMTP servers.
 
 #### Start POX
 > #./pox.py log.level DEBUG forwarding.l2_learning
@@ -19,3 +17,6 @@ It comprises of DNS, HTTP, HTTPS, FTP and SMTP servers.
 #### Start DNS
 > mininet> xterm dns\
 > xterm# dnsmasq --log-level --no-daemon
+
+#### Start TCPdump
+> #./parse_offline.sh
