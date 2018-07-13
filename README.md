@@ -122,7 +122,7 @@
 > xterm# python yavw.py
 > ```
 
-#### Start TCPdump
+#### Start TCPdump to capture network traffic
 > ```console
 > #./parse_offline.sh
 > ```
