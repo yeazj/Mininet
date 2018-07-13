@@ -1,16 +1,18 @@
 ## Benign & Attack traffic generation on an emulated Enterprise network
-* An enterprise network comprising of DNS, HTTP, HTTPS, FTP, SMTP and DB servers.
+* An emulated enterprise network on Mininet comprising of DNS, HTTP, HTTPS, FTP, SMTP and DB servers.
 * Network attacks
-  * Bruteforce
-  * Web
+  * Bruteforce attack using Metasploit
+  * Web attacks using cURL
     * SQL injection
     * XSS
-  * Probe
-  * Phishing
-  * Infiltration
-  * DOS/DDOS
-  * Botnet
-  * Vulnerability exploit
+  * Probe attacks using NMAP
+  * Phishing attacks using Harvester
+  * Infiltration attacks using Meterpreter payload
+  * DOS attacks using Hping (SYN Flood)
+  * DDOS attacks using LOIC
+  * Botnet attacks using Ares
+  * Vulnerability exploits using Nessus
+  * Mitm attacks using Dnsmasq cache poisoning
   
 ## Setup
 
