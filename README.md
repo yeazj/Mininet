@@ -32,7 +32,7 @@
 #### 3. Check configs
 > [/etc/resolve.conf](/resolve.conf) & [/etc/dnsmasq.hosts](/dnsmasq.hosts)
 
-> ![#f03c15]TBA
+> [TBA](https://placehold.it/15/f03c15/000000?text=+)
 
 #### 4. Start Mininet
 > ```console
