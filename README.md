@@ -32,7 +32,7 @@
 #### 3. Check configs
 > [/etc/resolve.conf](/resolve.conf) & [/etc/dnsmasq.hosts](/dnsmasq.hosts)
 
-> <font color="red">TBA</font>
+> ![#f03c15]TBA
 
 #### 4. Start Mininet
 > ```console
