@@ -30,7 +30,7 @@
 > #./my_net.sh
 
 #### Start DNS
-> mininet> xterm dns\
+> mininet> xterm dns
 
 > xterm# dnsmasq --log-level --no-daemon
 
@@ -38,19 +38,19 @@
 > #./parse_offline.sh
 
 #### Start FTP (Bruteforce attack victim)
-> #sudo apt-get install python-pyftpdlib\
+> #sudo apt-get install python-pyftpdlib
 
 > mininet> xterm l_ftp
 
 > xterm# python /scripts/ftp/server_ftp/basic_ftpd.py
 
 #### Start SMTP
-> mininet> xterm email\
+> mininet> xterm email
 
 > xterm# python scripts/smtp/smtpd_custom.py
 
 #### Start PostgreSQL over HTTPS server
-> PostgreSQL runs on local machine (fetch IP)\
+> PostgreSQL runs on local machine (fetch IP)
 
 > Change IP in Engine in [app.py](scripts/http_postgre/app.py) & [insertable.py](/scripts/http_postgre/insertable.py)
 > ```python
