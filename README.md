@@ -29,12 +29,12 @@
 
 > #./my_net.sh
 
-#### Start DNS
+#### Start DNS (DOS/DDOS attack target)
 > mininet> xterm dns
 
 > xterm# dnsmasq --log-level --no-daemon
 
-#### Start FTP (Bruteforce attack victim)
+#### Start FTP (Bruteforce attack target)
 > #sudo apt-get install python-pyftpdlib
 
 > mininet> xterm l_ftp
@@ -73,7 +73,7 @@
 
 > xterm# python scripts/http_upload/shttpu.py 80
 
-#### Start Vulnerable HTTP (Web attacks victim)
+#### Start Vulnerable HTTP (Web attacks target)
 > [Link to YAVW - Yet Another Vulnerable Webserver](https://github.com/noleti/yavw)
 
 #### Start TCPdump
