@@ -59,9 +59,11 @@
 > engine = create_engine('postgresql://postgres:postgres@x.x.x.x:5432/test', echo=True)
 > ```
 
-> #python scripts/http_postgre/createtable.py (Create *users* table in Postgre)
+> Create *users* table in Postgre\
+> #python scripts/http_postgre/createtable.py
 
-> #python scripts/http_postgre/insertable.py (Insert 'username' and 'password' in *users* table)
+> Insert 'username' and 'password' in *users* table\
+> #python scripts/http_postgre/insertable.py
 
 > mininet> xterm https
 
