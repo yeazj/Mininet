@@ -47,9 +47,9 @@
 > xterm# python scripts/smtp/smtpd_custom.py
 
 #### Start PostgreSQL over HTTPS server
-> PostgreSQL runs on local machine (fetch IP)
-
 > #service postgresql start
+
+> PostgreSQL runs on local machine (fetch IP)
 
 > Change IP in Engine in [app.py](scripts/http_postgre/app.py) & [insertable.py](/scripts/http_postgre/insertable.py) & [createtable.py](scripts/http_postgre/createtable.py)
 > ```python
