@@ -74,6 +74,7 @@
 > xterm# python scripts/http_upload/shttpu.py 80
 
 #### Start Vulnerable HTTP (Web attacks victim)
+> [Link to YAVW - Yet Another Vulnerable Webserver] (https://github.com/noleti/yavw)
 
 #### Start TCPdump
 > #./parse_offline.sh
