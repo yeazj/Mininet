@@ -17,20 +17,20 @@
 #### Pre-req : Kali Linux
 > Not tested on other platforms yet but shouldn't be much different on any other Debian/Ubuntu Linux
 
-#### Start POX [[Link to POX]](https://github.com/noxrepo/pox "POX Repo")
+#### 1. Start POX [[Link to POX]](https://github.com/noxrepo/pox "POX Repo")
 > ```console
 > #./pox.py log.level DEBUG forwarding.l2_learning
 > ```
 
-#### Stop NetManager (to prevent it from updating /etc/resolve.conf)
+#### 2. Stop NetManager (to prevent it from updating /etc/resolve.conf)
 > ```console
 > #service NetworkManager stop
 > ```
 
-#### Check configs
+#### 3. Check configs
 > [/etc/resolve.conf](/resolve.conf) & [/etc/dnsmasq.hosts](/dnsmasq.hosts)
 
-#### Start Mininet
+#### 4. Start Mininet
 > ```console
 > #service openvswitch-switch start
 > ```
@@ -39,7 +39,7 @@
 > #./my_net.sh
 > ```
 
-#### Start DNS (DOS/DDOS attack target)
+#### 5. Start DNS (DOS/DDOS attack target)
 > ```console
 > mininet> xterm dns
 > ```
@@ -48,7 +48,7 @@
 > xterm# dnsmasq --log-level --no-daemon
 > ```
 
-#### Start FTP (Bruteforce attack target)
+#### 6. Start FTP (Bruteforce attack target)
 > ```console
 > #sudo apt-get install python-pyftpdlib
 > ```
@@ -61,7 +61,7 @@
 > xterm# python scripts/ftp/server_ftp/basic_ftpd.py
 > ```
 
-#### Start SMTP
+#### 7. Start SMTP
 > ```console
 > mininet> xterm email
 > ```
@@ -70,7 +70,7 @@
 > xterm# python scripts/smtp/smtpd_custom.py
 > ```
 
-#### Start PostgreSQL over HTTPS server
+#### 8. Start PostgreSQL over HTTPS server
 > ```console
 > #service postgresql start
 > ```
@@ -100,7 +100,7 @@
 > xterm# python scripts/http_postgre/app.py
 > ```
 
-#### Start HTTP with Upload
+#### 9. Start HTTP with Upload
 > ```console
 > mininet> xterm web
 > ```
@@ -109,7 +109,7 @@
 > xterm# python scripts/http_upload/shttpu.py 80
 > ```
 
-#### Start Vulnerable HTTP (Web attacks target)
+#### 10. Start Vulnerable HTTP (Web attacks target)
 > [Link to YAVW - Yet Another Vulnerable Webserver](https://github.com/noleti/yavw)
 
 > ```console
@@ -124,7 +124,7 @@
 > xterm# python yavw.py
 > ```
 
-#### Start TCPdump to capture network traffic
+#### 11. Start TCPdump to capture network traffic
 > ```console
 > #./parse_offline.sh
 > ```
