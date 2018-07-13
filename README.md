@@ -76,5 +76,11 @@
 #### Start Vulnerable HTTP (Web attacks target)
 > [Link to YAVW - Yet Another Vulnerable Webserver](https://github.com/noleti/yavw)
 
+> mininet> xterm yavw
+
+> xterm# cd scripts/http_login
+
+> xterm# python yavw.py
+
 #### Start TCPdump
 > #./parse_offline.sh
