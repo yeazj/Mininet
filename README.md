@@ -1,14 +1,14 @@
 # Mininet
 Emulation of an enterprise network comprising of DNS, HTTP, HTTPS, FTP and SMTP servers.
 
-#### Start POX
+#### Start POX [[Link to POX]](https://github.com/noxrepo/pox "POX Repo")
 > #./pox.py log.level DEBUG forwarding.l2_learning
 
 #### Stop NetManager (to prevent it from updating /etc/resolve.conf)
 > #service NetworkManager stop
 
 #### Check configs
-> /etc/resolve.conf & /etc/dnsmasq.hosts
+> [/etc/resolve.conf](/resolve.conf) & [/etc/dnsmasq.hosts](/dnsmasq.hosts)
 
 #### Start Mininet
 > #service openvswitch-switch start\
