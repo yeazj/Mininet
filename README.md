@@ -142,6 +142,15 @@
 
 ## Benign Traffic Generation
 #### Start the scripts at the hosts
+H1 -> ./scripts/ftp/client_ftp/both.sh
+
+H2 -> ./scripts/smtp/run_email_cont.sh
+
+H3 -> ./scripts/http_upload/host_run.sh
+
+H4 -> ./scripts/http_login/curl_yavw.sh
+
+H5 -> ./scripts/https/curl-https.sh
 
 ## Attack Traffic Generation
-#### Start the mamlicious host
+#### Start the malicious host
