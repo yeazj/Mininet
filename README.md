@@ -145,19 +145,44 @@
 
 ## Benign Traffic Generation
 #### Start the scripts at the hosts
+> FTP from H1 (includes successful and failed logins + file upload for successful login)
 > ```console
 > mininet> xterm h1
 > xterm# cd scripts/ftp/client_ftp
 > xterm# ./both.sh
 > ```
 
-H2 -> ./scripts/smtp/run_email_cont.sh
+> SMTP from H2 (includes sending an email to the email server)
+> ```console
+> mininet> xterm h2
+> xterm# cd scripts/smtp/
+> xterm# ./run_email_cont.sh
+> ```
 
-H3 -> ./scripts/http_upload/host_run.sh
+> HTTP from H3 (includes file upload via http)
+> ```console
+> mininet> xterm h3
+> xterm# cd scripts/http_upload
+> xterm# ./host_run.sh
+> ```
 
-H4 -> ./scripts/http_login/curl_yavw.sh
+> HTTP from H4 (includes http login - which will also be used for Web attacks later)
+> ```console
+> mininet> xterm h4
+> xterm# cd scripts/http_login
+> xterm# ./curl_yavw.sh
+> ```
 
-H5 -> ./scripts/https/curl-https.sh
+> Postgre over HTTPS from H5 (includes https + postgre query to Central DB for login credentials)
+> ```console
+> mininet> xterm h5
+> xterm# cd scripts/https
+> xterm# ./curl-https.sh
+> ```
+
+> DNS traffic from all
+
+> All above client (H1-H5) requests uses hostnames thus generating DNS traffic.
 
 ## Attack Traffic Generation
 #### Start the malicious host
