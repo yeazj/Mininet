@@ -183,7 +183,7 @@
 > DNS traffic from all\
 > ```console
 > All client (H1-H5) requests uses hostnames thus generating DNS traffic.
-> ```console
+> ```
 
 ## Attack Traffic Generation
 #### Start the malicious host
