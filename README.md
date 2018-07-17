@@ -51,7 +51,7 @@
 > ```
 
 > ```console
-> xterm# dnsmasq --log-level --no-daemon
+> xterm# dnsmasq --log-queries --no-daemon
 > ```
 
 #### 6. Start FTP (Bruteforce attack target)
