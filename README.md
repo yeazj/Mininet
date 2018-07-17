@@ -145,7 +145,11 @@
 
 ## Benign Traffic Generation
 #### Start the scripts at the hosts
-H1 -> ./scripts/ftp/client_ftp/both.sh
+> ```console
+> mininet> xterm h1
+> xterm# cd scripts/ftp/client_ftp
+> xterm# ./both.sh
+> ```
 
 H2 -> ./scripts/smtp/run_email_cont.sh
 
