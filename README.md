@@ -17,8 +17,8 @@
 ## Setup
 
 #### Pre-req : Kali Linux
-> Not tested on other platforms yet but shouldn't be much different on any other Debian/Ubuntu Linux \
-> Ensure there's no Internet connectivty as this will auto-update DNS entries.
+> 1. Not tested on other platforms yet but shouldn't be much different on any other Debian/Ubuntu Linux \
+> 2. Ensure there's no Internet connectivty as this will auto-update DNS entries.
 
 #### 1. Start POX [[Link to POX]](https://github.com/noxrepo/pox "POX Repo")
 > ```console
