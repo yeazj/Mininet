@@ -180,8 +180,7 @@
 > xterm# ./curl-https.sh
 > ```
 
-> DNS traffic from all
-
+> DNS traffic from all\
 > All above client (H1-H5) requests uses hostnames thus generating DNS traffic.
 
 ## Attack Traffic Generation
