@@ -112,7 +112,11 @@
 > ```
 
 > ```console
-> xterm# python scripts/http_postgre/app.py
+> xterm# cd scripts/http_postgre
+> ```
+
+> ```console
+> xterm# python app.py
 > Pass phrase is : mssd
 > ```
 
